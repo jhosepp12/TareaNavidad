@@ -1,0 +1,115 @@
+body {
+    background-image: url("../imagenes/fondo1.avif");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 15px;
+}
+#cabecera, #contenido, #pie {
+    border: 2px solid red;
+    margin-bottom: 12px;
+    padding: 15px;
+}
+
+#cabecera h1 {
+    color: blue;
+    text-align: center;
+    font-size: 48px;
+}
+
+#menu {
+    text-align: center;
+}
+
+.boton-menu {
+    display: inline-block;
+    border: 2px solid black;
+    color: blue;
+    font-size: 16px;
+    padding: 6px 0;
+    margin: 3px;
+    text-decoration: none;
+    width: 17%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#contenido {
+    color: #333;
+    font-size: 20px;
+}
+
+#contenido h2 {
+    color: blue;
+}
+
+#pie {
+    color: blue;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 8px 15px;
+}
+
+th {
+    background-color: blue;
+    color: white;
+}
+
+.imagen {
+    width: 45%;
+    height: 300px;
+
+}
+
+.caja {
+    border: 2px dashed blue;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.destacado {
+    color: red;
+    font-weight: bold;
+}
+
+.personaje {
+    display: inline-block;
+    text-align: center;   
+}
+
+.personaje img {
+    width: 300px;
+    display: block;
+}
+
+.btn, .personaje button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    font-size: 16px;
+}
+
+#descripcion {
+    margin-top: 15px;
+    padding: 10px;
+    border: 2px solid blue;
+}
+
+.eliminar {
+    background-color: red;
+    color: white;
+    border: none;
+    margin-left: 10px;
+}

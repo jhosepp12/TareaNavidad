@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personaje</title>
+    <link rel="stylesheet" href="../CSS/estilo1.css">
+    <script src="../JSS/personajes.js"></script>
+</head>
+<body>
+    <div id="cabecera">
+        <h1>NAVIDAD</h1>
+        <div id="menu">
+            <a class="boton-menu" href="../index.html">bienvenida</a>
+            <a class="boton-menu" href="historia.html">historia</a>
+            <a class="boton-menu" href="personajes.html">personajes</a>
+            <a class="boton-menu" href="regalos.html">Regalos</a>
+            <a class="boton-menu" href="comida.html">Comida</a>
+        </div>
+    </div>
+
+    <div id="contenido">
+        <h2>Personajes</h2>
+            <p>Haz click en el botón de cada personaje:</p>
+            
+            <div class="personajes">
+                <div class="personaje">
+                    <img src="../imagenes/ima2.jpg" alt="Papá Noel">
+                    <button onclick="mostrar('santa')">Papá Noel</button>
+                </div>
+                <div class="personaje">
+                    <img src="../imagenes/ima3.avif" alt="Reno">
+                    <button onclick="mostrar('reno')">Reno</button>
+                </div>
+                <div class="personaje">
+                    <img src="../imagenes/ima4.jpg" alt="Elfo">
+                    <button onclick="mostrar('elfo')">Elfo</button>
+                </div>
+            </div>
+            <div id="descripcion">Aquí saldrá la descripción del personaje.</div>
+    </div>
+
+    <div id="pie">diseñado por: Jhosep Harry Calle Quispe</div>
+</body>
+</html>

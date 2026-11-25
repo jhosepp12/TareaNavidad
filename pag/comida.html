@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>comida</title>
+    <link rel="stylesheet" href="../CSS/estilo1.css">
+    <script src="../JSS/comida.js"></script>
+</head>
+<body>
+    <div id="cabecera">
+        <h1>NAVIDAD</h1>
+        <div id="menu">
+            <a class="boton-menu" href="../index.html">bienvenida</a>
+            <a class="boton-menu" href="historia.html">historia</a>
+            <a class="boton-menu" href="personajes.html">personajes</a>
+            <a class="boton-menu" href="regalos.html">Regalos</a>
+            <a class="boton-menu" href="comida.html">Comida</a>
+        </div>
+    </div>
+
+    <div id="contenido">
+        <h2>Comida: carrito de compras</h2>
+            <table>
+                <tr><th>Plato</th><th>Precio</th><th>Comprar</th></tr>
+                <tr><td>Pavo navideño</td><td>60 BS.</td><td><button class="btn" onclick="agregarPlato('Pavo navideño', 60)">Agregar</button></td></tr>
+                <tr><td>Panetón</td><td>45 BS.</td><td><button class="btn" onclick="agregarPlato('Panetón', 15)">Agregar</button></td></tr>
+                <tr><td>Chocolate caliente</td><td>10 BS.</td><td><button class="btn" onclick="agregarPlato('Chocolate caliente', 10)">Agregar</button></td></tr>
+                <tr><td>Lechón</td><td>80 BS.</td><td><button class="btn" onclick="agregarPlato('Lechón', 80)">Agregar</button></td></tr>
+            </table>
+
+            <h3>Mi carrito:</h3>
+            <ul id="carrito"></ul>
+            <p><b>Total: S/ <span id="total">0</span></b></p>
+            <button class="btn" onclick="vaciarCarrito()">Vaciar carrito</button>
+    </div>
+
+    <div id="pie">diseñado por: Jhosep Harry Calle Quispe</div>
+</body>
+</html>
